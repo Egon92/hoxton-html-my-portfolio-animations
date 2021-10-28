@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Animations)</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blanchedalmond;
+    padding: 1rem;
+}
+nav{
+    background-color: blue;
+}
+sub{
+    background-color: cadetblue;
+}
+nav{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, auto);
+    gap: 10px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+sub{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+    padding: 10px;
+    margin: 5rem;
+    
+
+}
+.presentation{
+    background-color: rgba(61, 64, 91, 0.6);
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.presentation :hover{
+    background-color: rgba(61, 64, 91);
+    
+}
+.presentation p{
+    color: whitesmoke;
+    line-height: 1rem;
+    margin: 10px;
+    transition: 0.5s;
+}
+.presentation p:hover{
+    font-size: 15px;
+}
+.presentation h1{
+    color: #ee9b00;
+    margin-bottom: 2px;
+    text-align: center;
+    transition: 0.5s;
+}
+h1:hover{
+    font-size: 30px;
+}
+.image{
+    width:150px;
+    height: 150px;
+    justify-content: end;
+    align-content: end;
+}
+.image img{
+height: 100%;
+justify-items: end;
+}
+.image:hover{
+    translate: (50px);
+}
+
+
+
+    </style>
+</head>
+
+
+
+
+<body>
+    <header>
+        <nav>
+            <span class="name"><a href="">Egon</a></span>
+            <span><a href="#">Top</a></span>
+            <span><a href="#">Projects</a></span>
+            <span><a href="#">Experience</a></span>
+        </nav>
+        <sub>
+            <div class="image"><img src="/assets/icon.svg"/></div>
+            <div class="presentation">
+                <h1>Full Stack Developer</h1>
+                <p>Lorem ipsum dolor 
+                sit, amet consectetur adipisicing elit. 
+                Vero molestiae pariatur voluptatem!</p>
+                <p>Lorem ipsum dolor 
+                sit, amet consectetur adipisicing elit. 
+                Vero molestiae pariatur voluptatem!</p>
+                <p>Lorem ipsum dolor 
+                sit, amet consectetur adipisicing elit. 
+                Vero molestiae pariatur voluptatem!</p>
+            </div>
+        </sub>
+    </header>
+    <main>
+        <h2></h2>
+        <div class="main-box">
+           <div class="left-box">
+               <div class="left-text">
+
+               </div>
+           </div>
+           <div class="mid-box">
+               <div class="mid-text">
+
+               </div>
+           </div>
+           <div class="right-box">
+               <div class="right-text">
+
+               </div>
+           </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
